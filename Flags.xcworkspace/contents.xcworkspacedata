@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:FlagInfo+CoreDataClass.h">
+   </FileRef>
+   <FileRef
+      location = "group:FlagInfo+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:FlagInfo+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:FlagInfo+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:Flag+CoreDataClass.h">
+   </FileRef>
+   <FileRef
+      location = "group:Flag+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:Flag+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:Flag+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:Flags.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

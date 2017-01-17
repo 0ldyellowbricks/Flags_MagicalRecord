@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15F124EA7FFC77A774DC03FB /* Pods_Flags.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9877CC597DFFC24D7B76C81D /* Pods_Flags.framework */; };
+		1B24C4FE1E2C6DCA00441073 /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B24C4FD1E2C6DCA00441073 /* InfoView.m */; };
+		1B65E93B1E2CBCA900DE98E8 /* AddInfoVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B65E93A1E2CBCA900DE98E8 /* AddInfoVM.m */; };
 		1BBEB2581E28C88100A065AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBEB2571E28C88100A065AD /* main.m */; };
 		1BBEB25B1E28C88100A065AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBEB25A1E28C88100A065AD /* AppDelegate.m */; };
 		1BBEB25E1E28C88100A065AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBEB25D1E28C88100A065AD /* ViewController.m */; };
 		1BBEB2611E28C88100A065AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBEB25F1E28C88100A065AD /* Main.storyboard */; };
 		1BBEB2631E28C88100A065AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BBEB2621E28C88100A065AD /* Assets.xcassets */; };
 		1BBEB2661E28C88100A065AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBEB2641E28C88100A065AD /* LaunchScreen.storyboard */; };
+		1BBEB2741E28D14600A065AD /* FlagModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BBEB2721E28D14600A065AD /* FlagModel.xcdatamodeld */; };
+		1BC5483E1E29C610005755FC /* AddInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC5483D1E29C610005755FC /* AddInfoViewController.m */; };
+		1BC548411E29CE07005755FC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBEB26D1E28CEAB00A065AD /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B24C4FC1E2C6DCA00441073 /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
+		1B24C4FD1E2C6DCA00441073 /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
+		1B65E9391E2CBCA900DE98E8 /* AddInfoVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddInfoVM.h; sourceTree = "<group>"; };
+		1B65E93A1E2CBCA900DE98E8 /* AddInfoVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddInfoVM.m; sourceTree = "<group>"; };
+		1B878ADD8960A138DFF2EADE /* Pods-Flags.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flags.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flags/Pods-Flags.debug.xcconfig"; sourceTree = "<group>"; };
 		1BBEB2531E28C88100A065AD /* Flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flags.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBEB2571E28C88100A065AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BBEB2591E28C88100A065AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +37,13 @@
 		1BBEB2621E28C88100A065AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BBEB2651E28C88100A065AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BBEB2671E28C88100A065AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BBEB26D1E28CEAB00A065AD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1BBEB2731E28D14600A065AD /* FlagModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlagModel.xcdatamodel; sourceTree = "<group>"; };
+		1BC5483C1E29C610005755FC /* AddInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddInfoViewController.h; sourceTree = "<group>"; };
+		1BC5483D1E29C610005755FC /* AddInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddInfoViewController.m; sourceTree = "<group>"; };
+		1BC5483F1E29CDFB005755FC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3A19F568673A9986D4146EC6 /* Pods-Flags.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flags.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flags/Pods-Flags.release.xcconfig"; sourceTree = "<group>"; };
+		9877CC597DFFC24D7B76C81D /* Pods_Flags.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flags.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC548411E29CE07005755FC /* CoreData.framework in Frameworks */,
+				15F124EA7FFC77A774DC03FB /* Pods_Flags.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B24C4FB1E2C6DB500441073 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1B24C4FC1E2C6DCA00441073 /* InfoView.h */,
+				1B24C4FD1E2C6DCA00441073 /* InfoView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		1B24C4FF1E2CBAA200441073 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				1BBEB25C1E28C88100A065AD /* ViewController.h */,
+				1BBEB25D1E28C88100A065AD /* ViewController.m */,
+				1BC5483C1E29C610005755FC /* AddInfoViewController.h */,
+				1BC5483D1E29C610005755FC /* AddInfoViewController.m */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		1B24C5001E2CBAA700441073 /* vm */ = {
+			isa = PBXGroup;
+			children = (
+				1B65E9391E2CBCA900DE98E8 /* AddInfoVM.h */,
+				1B65E93A1E2CBCA900DE98E8 /* AddInfoVM.m */,
+			);
+			name = vm;
+			sourceTree = "<group>";
+		};
 		1BBEB24A1E28C88100A065AD = {
 			isa = PBXGroup;
 			children = (
 				1BBEB2551E28C88100A065AD /* Flags */,
 				1BBEB2541E28C88100A065AD /* Products */,
+				D3A0BD4A8FEE3237F62B88FB /* Pods */,
+				C6C25D0C9908CEA44987672C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +109,17 @@
 		1BBEB2551E28C88100A065AD /* Flags */ = {
 			isa = PBXGroup;
 			children = (
+				1B24C5001E2CBAA700441073 /* vm */,
+				1B24C4FF1E2CBAA200441073 /* vc */,
+				1B24C4FB1E2C6DB500441073 /* view */,
 				1BBEB2591E28C88100A065AD /* AppDelegate.h */,
 				1BBEB25A1E28C88100A065AD /* AppDelegate.m */,
-				1BBEB25C1E28C88100A065AD /* ViewController.h */,
-				1BBEB25D1E28C88100A065AD /* ViewController.m */,
 				1BBEB25F1E28C88100A065AD /* Main.storyboard */,
 				1BBEB2621E28C88100A065AD /* Assets.xcassets */,
 				1BBEB2641E28C88100A065AD /* LaunchScreen.storyboard */,
 				1BBEB2671E28C88100A065AD /* Info.plist */,
 				1BBEB2561E28C88100A065AD /* Supporting Files */,
+				1BBEB2721E28D14600A065AD /* FlagModel.xcdatamodeld */,
 			);
 			path = Flags;
 			sourceTree = "<group>";
@@ -79,6 +132,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C6C25D0C9908CEA44987672C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC5483F1E29CDFB005755FC /* AVFoundation.framework */,
+				1BBEB26D1E28CEAB00A065AD /* CoreData.framework */,
+				9877CC597DFFC24D7B76C81D /* Pods_Flags.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3A0BD4A8FEE3237F62B88FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B878ADD8960A138DFF2EADE /* Pods-Flags.debug.xcconfig */,
+				3A19F568673A9986D4146EC6 /* Pods-Flags.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BBEB26A1E28C88100A065AD /* Build configuration list for PBXNativeTarget "Flags" */;
 			buildPhases = (
+				75E78F4931820E982BCE4246 /* [CP] Check Pods Manifest.lock */,
 				1BBEB24F1E28C88100A065AD /* Sources */,
 				1BBEB2501E28C88100A065AD /* Frameworks */,
 				1BBEB2511E28C88100A065AD /* Resources */,
+				7F46686930CD06105BA91D61 /* [CP] Embed Pods Frameworks */,
+				45AC933D807EAD6C46136A3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,13 +220,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45AC933D807EAD6C46136A3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flags/Pods-Flags-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E78F4931820E982BCE4246 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F46686930CD06105BA91D61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flags/Pods-Flags-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BBEB24F1E28C88100A065AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1BBEB25E1E28C88100A065AD /* ViewController.m in Sources */,
+				1BBEB2741E28D14600A065AD /* FlagModel.xcdatamodeld in Sources */,
+				1B24C4FE1E2C6DCA00441073 /* InfoView.m in Sources */,
+				1BC5483E1E29C610005755FC /* AddInfoViewController.m in Sources */,
 				1BBEB25B1E28C88100A065AD /* AppDelegate.m in Sources */,
+				1B65E93B1E2CBCA900DE98E8 /* AddInfoVM.m in Sources */,
 				1BBEB2581E28C88100A065AD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -259,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -268,6 +395,7 @@
 		};
 		1BBEB26B1E28C88100A065AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B878ADD8960A138DFF2EADE /* Pods-Flags.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Flags/Info.plist;
@@ -279,6 +407,7 @@
 		};
 		1BBEB26C1E28C88100A065AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A19F568673A9986D4146EC6 /* Pods-Flags.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Flags/Info.plist;
@@ -307,8 +436,22 @@
 				1BBEB26C1E28C88100A065AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1BBEB2721E28D14600A065AD /* FlagModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1BBEB2731E28D14600A065AD /* FlagModel.xcdatamodel */,
+			);
+			currentVersion = 1BBEB2731E28D14600A065AD /* FlagModel.xcdatamodel */;
+			path = FlagModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1BBEB24B1E28C88100A065AD /* Project object */;
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1BBEB2521E28C88100A065AD"
-               BuildableName = "Flags.app"
-               BlueprintName = "Flags"
-               ReferencedContainer = "container:Flags.xcodeproj">
+               BlueprintIdentifier = "406F7D0E7A213D6F1B34E985D11B8147"
+               BuildableName = "Pods_Flags.framework"
+               BlueprintName = "Pods-Flags"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1BBEB2521E28C88100A065AD"
-            BuildableName = "Flags.app"
-            BlueprintName = "Flags"
-            ReferencedContainer = "container:Flags.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1BBEB2521E28C88100A065AD"
-            BuildableName = "Flags.app"
-            BlueprintName = "Flags"
-            ReferencedContainer = "container:Flags.xcodeproj">
+            BlueprintIdentifier = "406F7D0E7A213D6F1B34E985D11B8147"
+            BuildableName = "Pods_Flags.framework"
+            BlueprintName = "Pods-Flags"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1BBEB2521E28C88100A065AD"
-            BuildableName = "Flags.app"
-            BlueprintName = "Flags"
-            ReferencedContainer = "container:Flags.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
